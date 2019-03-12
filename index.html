@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Slider</title>
-  </head>
 
-  <body>
-    <section class="Slider">
-      <h2 class="hidden">Slider</h2>
-      <div class="slide" style=" background-image: url(img/slide2.jpg);">
-        <div class="container slide-content">
-          <img src="img/webpage-min.svg" alt="Tworzenie stron internetowych" />
-          <h3>Tworzenie stron internetowych</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cumque
-            deleniti non modi! Qui, ab.
-          </p>
-        </div>
-      </div>
-      <div class="slide"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Slider</title>
+</head>
+
+<body>
+
+    <!-- test ikon -->
+    <!-- <span>&#xe900;</span> -->
+    <section class="container navbar">
+        <h2 class="hidden">Pasek nawigacyjny</h2>
+        <a href="#">            
+            <img srcset="img/logo-min@2x.webp 2x, img/logo-min.webp 1x" />
+        </a>
+        <nav class="main-nav">
+            <h2 class="hidden">Menu Główne</h2>
+            <ul class="main-menu">
+                <li><a href="#">
+                    <span>&#xe900;</span>
+                    <p><span>Strony</span> <br>internetowe</p>
+                </a></li>
+                <li><a href="#">
+                    <span>&#xe901;</span>
+                    <p><span>Aplikacje</span> <br>mobilne</p>
+                </a></li>
+            </ul>
+        </nav>
     </section>
-  </body>
+
+    <section class="slider">
+        <h2 class="hidden">Slider</h2>
+
+        <div class="slide" style="background-image: url(img/slide1.jpg);">
+            <div class="container slide-content">
+                <img src="img/webpage-min.svg" alt="Tworzenie stron internetowych">
+                <h3>Tworzenie stron internetowych</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci minus nam temporibus illum unde
+                    aperiam!</p>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url(img/slide2.jpg);">
+            <div class="container slide-content">
+                <img src="img/mobile-min.svg" alt="Aplikacje mobilne">
+                <h3>Tworzenie stron internetowych</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci minus nam temporibus illum unde
+                    aperiam!</p>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
